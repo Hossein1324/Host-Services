@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Wellcom to My Furst Projact">
-    <meta property="og:title" content="Hossein...">
-    <meta property="og:description" content="Hossein...">
-    <meta property="og:type" content="Websit">
-    <meta property="og:image" content="http://">
-    <meta property="og:url" content="https://Hossein.com">
-
-
-
-    <title>Hossein - Go Online for Just $9</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/normalize (1).css">
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -24,7 +16,7 @@
 
 <body>
   <header>
-    <nav class="nav" data-aos="fade-up">
+    <nav class="nav">
         
       <img src="images/logo.762e26a3.svg" alt="">
      
@@ -38,10 +30,10 @@
       </ul>
   </nav>
   </header>
-  <section class="block block--dark block--skewed-left hero" data-aos="fade-up">
-    <div class="container grid grid--1x2" >
+  <section class="block block--dark block--skewed-left hero">
+    <div class="container grid grid--1x2">
       <header class="block__header hero__content">
-        <h2 class="hero--heading">Cloud Hosting for Pros</h2>
+        <h1 class="hero--heading">Cloud Hosting for Pros</h1>
         <p class="hero--text">Deploy your websites in less than 60 seconds.</p>
         <a href="" class="btn btn--accent btn--stretched">Get Started</a>
       </header>
@@ -58,8 +50,7 @@
       </picture>
     </div>
   </section>
-  <section class="block container block--domain" data-aos="fade-up"
-  data-aos-anchor-placement="center-buttom">
+  <section class="block container block--domain">
     <header class="block__header">
       <h2>Starting at $9 per month</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, voluptatem!</p>
@@ -78,8 +69,7 @@
 
     </ul>
   </section> 
-  <section class="block container block-plans" data-aos="fade-up"
-  data-aos-anchor-placement="center-center">
+  <section class="block container block-plans">
     <div class="grid grid--1x3">
       <div class="plan">
         <div class="card card--secondary">
@@ -104,10 +94,8 @@
       <div  class="plan">
         <div class="card card--primary">
           <header class="card__header">
-            
              <img style="margin-left: 110px;
              margin-top: -17px;" class="plan--badge" src="/images/icons8-badge-65.png" alt="">
-             
             <h3 class="plan__name">Entry</h3>
             <span class="plan__price">$14</span>
             <span class="plan__billing-cycle">/month</span>
@@ -155,8 +143,8 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, voluptatem.
       </p>
     </header>
-    <article class="grid grid--1x2 feature" >
-      <div class="feature__content" data-aos="fade-left" >
+    <article class="grid grid--1x2 feature">
+      <div class="feature__content" data-aos="fade-up">
         <span class="icon-container">
           <svg class="icon icon--primary">
             <use xlink:href="images/sprite.svg#easy"></use>
@@ -170,11 +158,19 @@
         <a href="#" class="link-arrow">Learn More</a>
       </div>
       <picture>
-        <img class="feature__image" data-aos="fade-left"  src="images/easy.5b7ee720.jpg" alt="" />
+        <source
+          type="image/webp"
+          srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+        />
+        <source
+          type="image/jpg"
+          srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+        />
+        <img class="feature__image" src="images/easy.5b7ee720.jpg" alt="" />
       </picture>
     </article>
-    <article class="grid grid--1x2 feature" >
-      <div class="feature__content" data-aos="fade-right">
+    <article class="grid grid--1x2 feature">
+      <div class="feature__content">
         <span class="icon-container">
           <svg class="icon icon--primary">
             <use xlink:href="images/sprite.svg#computer"></use>
@@ -188,11 +184,19 @@
         <a href="#" class="link-arrow">Learn More</a>
       </div>
       <picture>
-        <img class="feature__image" data-aos="fade-right" src="images/fast.f4e3cfb3.jpg" alt="" />
+        <source
+          type="image/webp"
+          srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
+        />
+        <source
+          type="image/jpg"
+          srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
+        />
+        <img class="feature__image" src="images/fast.f4e3cfb3.jpg" alt="" />
       </picture>
     </article>
     <article class="grid grid--1x2 feature">
-      <div class="feature__content" data-aos="fade-left">
+      <div class="feature__content">
         <span class="icon-container">
           <svg class="icon icon--primary">
             <use xlink:href="images/sprite.svg#wordpress"></use>
@@ -206,12 +210,19 @@
         <a href="#" class="link-arrow">Learn More</a>
       </div>
       <picture>
-        
-        <img class="feature__image" data-aos="fade-left" src="images/wordpress.87235ed8.jpg" alt="" />
+        <source
+          type="image/webp"
+          srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
+        />
+        <source
+          type="image/jpg"
+          srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x"
+        />
+        <img class="feature__image" src="images/wordpress.87235ed8.jpg" alt="" />
       </picture>
     </article>
     <article class="grid grid--1x2 feature">
-      <div class="feature__content" data-aos="fade-right">
+      <div class="feature__content">
         <span class="icon-container">
           <svg class="icon icon--primary">
             <use xlink:href="images/sprite.svg#clock"></use>
@@ -225,122 +236,25 @@
         <a href="#" class="link-arrow">Learn More</a>
       </div>
       <picture>
-        
-        <img class="feature__image" data-aos="fade-right" src="images/support.72d920c2.jpg" alt="" />
+        <source
+          type="image/webp"
+          srcset="images/support.webp 1x, images/support@2x.webp 2x"
+        />
+        <source
+          type="image/jpg"
+          srcset="images/support.jpg 1x, images/support@2x.jpg 2x"
+        />
+        <img class="feature__image" src="images/support.72d920c2.jpg" alt="" />
       </picture>
     </article>
   </section>
-  <!-- madia -->
-  <section class="block" data-aos="fade-up"
-  data-aos-anchor-placement="top-bottom">
-    <header class="block__header">
-      <h2>what our Customers are Saying</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, officiis!</p>
-    </header>
-    <div class="container">
-      <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;" class="card Testmoniol">
-        <div class="grid grid--1x2">
-            <div class="tetmoniol-image">
-             <img  src="images/testimonial.ad9df737.jpg" alt="">
-             
-            </div>
-            
-            <blockquote class="quote">
-                <p class="dablaqout">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quod eos ab sint ex iure non repudiandae nesciunt dolorem minima.</p>
-                <footer class="hossein">
-                    <div>
-                    <h3 class="head-quote" style="font-style: normal; font-weight: 600;"> <img  style="float: left; margin-top: 12px;" src="/images/icons8-line-30.png" alt="" class="icon-image"> Hossein</h3>
-                    <p class="text-quote">ABC Company ceo</p>
-                    
-                </div>
-            </footer>
-            
-            </blockquote>
-        </div>
-       </div>
-    </div>
-  </section>
-  <div class="callot callot--primary" data-aos="fade-up"
-  data-aos-anchor-placement="top-bottom">
-    <div class="gris grid--1x2">
-        <div class="call--content">
-            <h1 class="callot--headin">READY TO GET STARTED !</h1>
-            <P class="callot--paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam facilis sit suscipit architecto sequi temporibus, sint voluptatum odio assumenda officia!</P>
-        </div>
-       
-        <a style="margin-top: 3rem;" href="#" class="btn btn--secondary" >GET STARTED</a>
-    
-    </div>
-</div>
-<footer class="block block--dark footer" data-aos="fade-up"
-data-aos-anchor-placement="top-bottom">
-  <div class="container grid footer__section">
-    <section class="collapsible collapsible--expanded footer__section">
-      <div class="collapsible__header">
-        <h2 class="collapsible__heading footer__heading">PRODUCTS</h2>
-        <img class="img-icons"  src="/images/icons8-down-50.png" alt="">
-      </div>
-      <div class="collapsible__content">
-       <ul class="list">
-        <li><a href="#">Website Hosting</a></li>
-        <li><a href="#">Free Automated Wordpress</a></li>
-        <li><a href="#">Migrations</a></li>
-       </ul>
-      </div>
-    </section>
-    <section class="collapsible collapsible--expanded footer__section">
-      <div class="collapsible__header">
-        <h2 class="collapsible__heading footer__heading">Company</h2>
-        <img class="img-icons" src="/images/icons8-down-50.png" alt="">
-      </div>
-      <div class="collapsible__content">
-        <ul class="list">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Affiliates</a></li>
-          <li><a href="#">Blog</a></li>
-         </ul>
-      </div>
-    </section>
-    <section class="collapsible collapsible--expanded footer__section">
-      <div class="collapsible__header">
-        <h2 class="collapsible__heading footer__heading">Support</h2>
-        <img class="img-icons" src="/images/icons8-down-50.png" alt="">
-      </div>
-      <div class="collapsible__content">
-        <ul class="list">
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Knowledge Base</a></li>
-          <li><a href="#">FAQ</a></li>
-         </ul>
-      </div>
-    </section>
-    <section class="collapsible collapsible--expanded footer__section">
-      <div class="collapsible__header">
-        <h2 class="collapsible__heading footer__heading">Domains</h2>
-        <img class="img-icons" src="/images/icons8-down-50.png" alt="">
-      </div>
-      <div class="collapsible__content">
-        <ul class="list">
-          <li><a href="#">Domain Checker</a></li>
-          <li><a href="#">Domain Transfer</a></li>
-          <li><a href="#">Free Domain</a></li>
-         </ul>
-      </div>
-    </section>
-    <div class="footer__brand">
-      <img  src="images/logo.svg" alt="">
-      <p class="footer__copyright">Copyright 2023 Hossein</p>
-    </div>
-  </div>
-</footer>
+
 
   <script src="js/main.4953e6a2.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-  
- 
 </body>
 
 </html>
